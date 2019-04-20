@@ -65,10 +65,9 @@ height: 630px;
 margin-left: auto;
 margin-right: auto;
 width: 959px;
-height: 520px;
+height: 605px;
 background-color: #ffffff;
 border: 1px solid rgba(155 , 155, 155, 0.2);
-
 }
 
 .container {
@@ -90,27 +89,39 @@ background-color: #ffffff;
 border-bottom: 3px solid rgba(155 , 155, 155, 0.4);
 }
 
-.text_wrp {
-padding-bottom: 30px;
-background-color: #ffffff;
+input, textarea {
+width: 890px;
+height: 35px;
+padding-left: 10px;
+font-size: 12px;
+border: 1px solid rgba(155 , 155, 155, 0.2);
+
 }
 
-img {
+textarea {
+width: 890px;
+height: 200px;
+}
+
+.name {
 padding-top: 30px;
-padding-bottom: 30px;
-padding-right: 25px;
-float: left;    
-width: 200px;
-height: 150px;
-overflow: hidden;
 }
 
-.info{
-padding-top: 20px;
-font-size: 18px;
-line-height: 2;
+p {
+font-size: 14px;
 font-family: sans-serif;
-color:  rgba(145, 143, 143, 0.8);
+padding-bottom: 10px;
+padding-top: 20px;
+color: rgba(155 , 155, 155, 1);
+}
+
+button {
+color: #fff;
+width: 115px;
+height: 40px;
+border: none;
+background-color:rgb(73,170,165);
+font-size: 18px;
 }
 
 .footer {
@@ -127,5 +138,6 @@ color: #fff;
 
 a:hover {
 color: #4aaaa5;
+cursor: pointer;
 }
 

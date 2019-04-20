@@ -59,13 +59,14 @@ padding-right: 16px;
 .content_wrp {
 padding-top: 35px;
 background-color: #f1f1f1;
-height: 630px;
+height: 975px;
 }
 .container_size {
+display: block;
 margin-left: auto;
 margin-right: auto;
 width: 959px;
-height: 520px;
+height: 935px;
 background-color: #ffffff;
 border: 1px solid rgba(155 , 155, 155, 0.2);
 
@@ -75,9 +76,50 @@ border: 1px solid rgba(155 , 155, 155, 0.2);
 margin-left: auto;
 margin-right: auto;
 width: 900px;
-display: block;
 padding-left: 30px;
 padding-right: 30px;
+}
+
+.project_area {
+padding-top:30px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.project_wrp {
+width: 275px;
+height: 205px;
+padding-right: 40px;
+position: relative;
+margin-bottom: 55px;
+}
+
+.project_image {
+width: 275px;
+height: 205px;
+}
+
+.project_name {
+font-family: serif;
+font-size: 18px;
+height: 60px;
+width: 275px;
+background-color:rgb(73,170,165);
+position: absolute;
+bottom: 9px;
+display: flex;
+margin: auto;
+}
+
+.project_text {
+width: 275px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 20px;
+font-family: serif;
 }
 
 h2 {
@@ -90,28 +132,6 @@ background-color: #ffffff;
 border-bottom: 3px solid rgba(155 , 155, 155, 0.4);
 }
 
-.text_wrp {
-padding-bottom: 30px;
-background-color: #ffffff;
-}
-
-img {
-padding-top: 30px;
-padding-bottom: 30px;
-padding-right: 25px;
-float: left;    
-width: 200px;
-height: 150px;
-overflow: hidden;
-}
-
-.info{
-padding-top: 20px;
-font-size: 18px;
-line-height: 2;
-font-family: sans-serif;
-color:  rgba(145, 143, 143, 0.8);
-}
 
 .footer {
 text-align: center;
@@ -122,10 +142,10 @@ border-top: 8px solid rgb(73,170,165);
 display: flex;
 flex-direction: column-reverse;
 padding-bottom: 3px;
-color: #fff;
-}
+color: #fff}
 
 a:hover {
 color: #4aaaa5;
+cursor: pointer;
 }
 

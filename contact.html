@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/style_css/style_contact.css">
 </head>
 <body>
-    
+<div class="page_wrp">
+<header>
+    <div class="header_wrp">
+        <h1>Bohdan Dziubliuk</h1>
+        <ul class="list">
+          <li class="list-item"><a class="link" target="_blank" href="/index.html">About</a></li>
+         <li class="list-item2"><a class="linkc" target="_blank" href="./portfolio.html" >Portfolio</a></li>
+         <li class="list-item"><a class="link" target="_blank" href="#" >Contact</a></li>
+     </ul>
+    </div>
+</header>
+<div class="content_wrp">
+    <div class="container_size">
+        <div class="container">
+            <h2>Contact</h2>
+                <form class="contact_input">
+                        <p class="name">Name</p>
+                        <input 
+                        class="contact-input"
+                        type="text"
+                        name="name"  
+                        placeholder="John Smith"
+                        required
+                        >
+                        <p>Email</p>
+                        <input 
+                        class="contact-input" 
+                        type="email" 
+                        name="email"  
+                        placeholder="example@gmail.com" 
+                        required>
+                        <p>Message</p>
+                        <textarea name ="body" cols="30" rows="10" ></textarea>     
+                </form>
+                <br>
+            <button 
+            class="contact-submit" 
+            type="submit">
+            Submit
+            </button>
+        </div>
+</div>
+</div>
+<footer>
+        <p class="footer">Copyright ©</p>
+</footer> 
+</div>
 </body>
 </html>

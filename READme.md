@@ -1,1 +1,1 @@
-![GitHub Logo](images/cp.png)
+![GitHub Logo](assetss/images/cp.png)

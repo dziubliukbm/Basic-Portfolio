@@ -140,9 +140,10 @@
                 <div class="logo">
                     <img src="./assets/images/89966e36-7a08-491b-a05b-50cd32af5a7e_200x200.png" class="logo_link" />
                 </div>
-                <p class="hello">Welcome to my page, I'm</p>
-                <h1 class="name">Bohdan Dziubliuk</h1>
+                <p class="hello">Welcome</p>
+                <!-- <h1 class="name">Bohdan Dziubliuk</h1> -->
                 <ul class="list">
+                        
                     <li class="list-item"><a class="link" href="./index.html">About</a></li>
                     <li class="list-item">
                         <a class="link" href="./portfolio.html">Portfolio</a>
@@ -154,36 +155,122 @@
             </div>
         </header>
         <div class="main">
+            <div class="main__groups">
+                <div class="main__groups--language">
+                <h2 class="main__groups--languages"> HTML/CSS</h2>
+                <p class="click">[..Click to see the tamplet..]</p>
+               
+                      <div class="slideshow-container">
 
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                              <div class="numbertext">1 / 6</div>
+                              <a href="https://dziubliukbm.github.io/goit-fe-course/module-04/index.html"><img src="./assets/images/hw4.jpg" style="width:100%"></a>
+                            </div>
+                          
+                            <div class="mySlides fade">
+                              <div class="numbertext">2 / 6</div>
+                              <a href="https://dziubliukbm.github.io/goit-fe-course/module-05/index.html"><img src="./assets/images/hw5.jpg" style="width:100%"></a>
+                            </div>
+                          
+                            <div class="mySlides fade">
+                              <div class="numbertext">3 / 6</div>
+                              <a href="https://dziubliukbm.github.io/goit-fe-course/module-06/index.html"><img src="./assets/images/hw6.jpg" style="width:100%"></a>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 6</div>
+                                <a href="https://dziubliukbm.github.io/goit-fe-course/module-07/index.html"><img src="./assets/images/hw7.jpg" style="width:100%"></a>
+                              </div>
+
+                              <div class="mySlides fade">
+                                <a href="https://dziubliukbm.github.io/goit-fe-course/module-09/index.html"><div class="numbertext">5 / 6 (responsive)</div>
+                                <img src="./assets/images/hw8d.jpg" style="width:100%"></a>
+                              </div>
+
+                              <div class="mySlides fade">
+                                <div class="numbertext">6 / 6</div>
+                                <a href="https://dziubliukbm.github.io/goit-fe-course/module-10/index.html"><img src="./assets/images/hw10.jpg" style="width:100%"></a>
+                              </div>
+                          
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                          </div>
+                          <br>
+                          <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span> 
+                                <span class="dot" onclick="currentSlide(2)"></span> 
+                                <span class="dot" onclick="currentSlide(3)"></span> 
+                                <span class="dot" onclick="currentSlide(4)"></span> 
+                                <span class="dot" onclick="currentSlide(5)"></span> 
+                                <span class="dot" onclick="currentSlide(6)"></span> 
+                                 
+                        </div>
+                        </div>
+                        <div class="main__groups--language">
+                            
+                            </div>
+            </div>
         </div>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer__section">
+                <button class="link_btn fb_link">
+                    <a href="https://www.facebook.com/profile.php?id=100013379612062">
+                        <svg class="footer_section--links">
+                            <use href="#facebook"></use>
+                        </svg>
+                    </a>
+                </button>
+                <button class="link_btn">
+                    <a>
+                        <svg class="footer_section--links">
+                            <use href="#github"></use>
+                        </svg>
+                    </a>
+                </button>
+                <button class="link_btn">
+                    <a>
+                        <svg class="footer_section--links">
+                            <use href="#heroku"></use>
+                        </svg>
+                    </a>
+                </button>
+            </div>
         </div>
-        <footer>
-                <div class="footer">
-                    <div class="footer__section">
-                        <button class="link_btn fb_link">
-                            <a href="https://www.facebook.com/profile.php?id=100013379612062">
-                                <svg class="footer_section--links">
-                                    <use href="#facebook"></use>
-                                </svg>
-                            </a>
-                        </button>
-                        <button class="link_btn">
-                            <a>
-                                <svg class="footer_section--links">
-                                    <use href="#github"></use>
-                                </svg>
-                            </a>
-                        </button>
-                        <button class="link_btn">
-                            <a>
-                                <svg class="footer_section--links">
-                                    <use href="#heroku"></use>
-                                </svg>
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </footer>
+    </footer>
+    <script>var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            // Thumbnail image controls
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1} 
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none"; 
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block"; 
+              dots[slideIndex-1].className += " active";
+            }</script>
 </body>
 
 </html>

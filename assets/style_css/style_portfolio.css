@@ -63,6 +63,8 @@
   max-width: 100%;
   position: relative;
   margin: auto;
+  overflow: hidden;
+  /* background-color: #fff; */
 }
 
 /* Hide the images by default */
@@ -330,11 +332,16 @@ align-items: center;
   @media (min-width: 960px) {
     body {
       margin: 0 auto;
-      background-image: url(/assets/images/bg.jpg);
-      background-repeat: no-repeat;
+      
+      /* background: url(../images/bg6.jpg); */
+      background-attachment:fixed;
+      background-position: center; 
       background-size: cover;
+      background-repeat: no-repeat;
     }
-    
+    .main {
+      margin: 0 auto;
+    }
     .header_wrp{
       width: 100%;
       margin: 0 auto;
@@ -374,6 +381,12 @@ align-items: center;
       margin: 0 auto;
       height: 3px;
       margin-top: 2rem;      
+    }
+    .card {
+      width: 27%;
+    }
+    .link:hover.link {
+      color: rgb(13, 125, 208);
     }
   }
     

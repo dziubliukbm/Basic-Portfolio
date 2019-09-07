@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.page_wrp {
+  margin: 0px 10px 0px 10px;
+}
+
+.logo {
+  margin: 0;
+  /* height: 60px; */
+}
+
+.logo_link {
+  height: 75px;
+  width: 75px;
+}
+
+.hello {
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 24px;
+  height: 30px;
+  font-family: "Roboto Slab", serif;
+  color: lightgray;
+}
+
+.header_wrp {
+  text-align: center;
+  border-bottom: 2px white solid;
+  margin-bottom: 20px;
+}
+
+.contact_text {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  color: azure;
+}
+
+.list {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.list-item {
+  margin-bottom: 15px;
+}
+
+.link {
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  color: lightgrey;
+  font-size: 2rem;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+}
+.content_wrp{
+width: 100%; 
+}
+form  {
+  width: 100%;
+  margin: 0 auto;
+  }
+  
+  
+  
+  .contact-input  {
+  outline-offset: -2px;
+  padding-left: 20px;
+  margin-left: 1px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  color: #9b9b9b;
+  font-size: 10px;
+  border-radius: 3px;
+  outline: 4px solid transparent;
+  border: none;
+  box-sizing: border-box;
+  transition: outline-color 0.1s;
+  }
+  
+  textarea {
+  outline-offset: -2px;
+  padding-left: 20px;
+  padding-top: 18px;
+  width: 100%;
+  height: 210px;
+  color: #9b9b9b;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  outline: 4px solid transparent;
+  box-sizing: border-box;
+  transition: outline-color 0.1s;
+  }
+  
+  .contact-submit
+  {
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  height: 55px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: rgb(13, 125, 208);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 6rem;
+  }
+  
+  input[type="email"]:focus:invalid,
+  textarea[name="body"]:focus:invalid,
+  input[name="name"]:focus:invalid {
+  outline-color: red;
+  transition: outline-color 5s;
+  }
+  
+  input[type="email"]:focus:valid,
+  textarea[name="body"]:focus:valid,
+  input[name="name"]:focus:valid {
+  outline-color: green;
+  transition: outline-color .4s;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    box-sizing: border-box;
+    width: 100%;
+    outline: 4px solid transparent;
+    outline-offset: -2px;
+    transition: outline-color 0.1s;
+  } 
+
+
+footer {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer__section {
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 10%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.footer_section--links {
+  width: 80px;
+}
+
+.link_btn {
+  padding-top: 10px;
+  width: 100px;
+  background-color: red;
+  border: none;
+  /* margin: 0 auto; */
+}
+
+.link_btn:hover.link_btn {
+  background-color: #fff;
+}
+
+a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  display: block;
+  border-bottom: 2px solid rgb(13, 125, 208);
+  -webkit-transition: all 0.2s Linear;
+  -o-transition: all 0.2s Linear;
+  transition: all 0.2s Linear;
+  margin-left: 15px;
+}
+
+
+.link:hover::after {
+  width: 100%;
+}
+
+.link:hover.link {
+  color: rgb(13, 125, 208);
+}
+
+@media (min-width: 768px) {
+  
+  .contact-inputs{
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+  }
+  .contact-input{
+    margin-bottom: 2rem;
+  }
+  .contact-textarea-wrp{
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+  }
+  .textarea{
+    width: 100%;
+    display: block;
+  }
+  .contact-form-wrp {
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+
+}
+.contact-submit {
+  width: 40%;
+}
+@media (min-width: 960px) {
+  body {
+    margin: 0 auto;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+}

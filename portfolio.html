@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>BD Portfolio</title>
     <link rel="stylesheet" href="./assets/style_css/style_portfolio.css" />
-    <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <svg style="display: none;">
-        <defs>
-
-
-
-            <symbol viewbox="0 0 80 220" id="facebook">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="96.124px" height="96.123px"
-                    style="enable-background:new 0 0 96.124 96.123;" xml:space="preserve">
-                    <g>
-                        <path
-                            d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+      <defs>
+        <symbol viewbox="0 0 80 220" id="facebook">
+          <svg
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="96.124px"
+            height="96.123px"
+            style="enable-background:new 0 0 96.124 96.123;"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
                    c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
                    c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
-                   c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z" />
-                    </g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                </svg>
-            </symbol>
-            <symbol viewbox="0 10 80 150" id="github">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                    y="0px" style="enable-background:new 0 0 90 90;" xml:space="preserve">
-                    <g>
-                        <path id="Github__x28_alt_x29_" d="M65.709,10.5c1.17,2.657,1.928,7.07,0.797,10.301c4.625,3.949,6.215,13.549,3.982,21.394
+                   c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"
+              />
+            </g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+          </svg>
+        </symbol>
+        <symbol viewbox="0 10 80 150" id="github">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            style="enable-background:new 0 0 90 90;"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                id="Github__x28_alt_x29_"
+                d="M65.709,10.5c1.17,2.657,1.928,7.07,0.797,10.301c4.625,3.949,6.215,13.549,3.982,21.394
                    C77.08,42.698,84.932,41.953,90,43.976c-4.738-0.609-11.209-1.804-17.32-1.388c-1.158,0.079-2.873-0.044-2.789,1.585
                    c7.074,0.555,14.104,1.16,19.912,2.973c-5.761-0.941-12.754-2.375-19.912-2.574c-2.957,5.835-8.908,8.703-17.123,9.307
                    c0.883,1.922,2.574,2.653,2.987,5.744c0.616,4.618-0.964,11.381,0.595,14.459c0.748,1.475,1.967,1.514,2.789,2.775
@@ -64,158 +88,260 @@
                    c5.545-2.014,12.384-2.736,19.715-2.973c-0.432-2.596-4.219-1.882-6.57-1.782C8.973,42.781,3.473,43.324,0,43.976
                    c5.034-1.795,12.098-1.571,18.918-1.585c-2.086-6.54-1.363-16.929,3.186-20.798C20.815,18.344,21.215,13.03,22.9,10.5
                    c5.079,0.228,8.159,2.443,11.35,4.557c3.957-1.125,8.118-1.685,13.54-1.387c2.28,0.126,4.651,1.151,6.369,0.989
-                   c1.685-0.158,3.542-2.049,5.178-2.771C61.468,10.947,63.271,10.588,65.709,10.5z" />
-                    </g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                </svg>
-            </symbol>
-            <symbol viewbox="0 0 550 1222" id="heroku">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                    y="0px" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                    <g>
-                        <g>
-                            <path d="M414.5,0h-317c-33.084,0-60,26.916-60,60v392c0,33.084,26.916,60,60,60h317c33.084,0,60-26.916,60-60V60
+                   c1.685-0.158,3.542-2.049,5.178-2.771C61.468,10.947,63.271,10.588,65.709,10.5z"
+              />
+            </g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+          </svg>
+        </symbol>
+        <symbol viewbox="0 0 550 1222" id="heroku">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            style="enable-background:new 0 0 512 512;"
+            xml:space="preserve"
+          >
+            <g>
+              <g>
+                <path
+                  d="M414.5,0h-317c-33.084,0-60,26.916-60,60v392c0,33.084,26.916,60,60,60h317c33.084,0,60-26.916,60-60V60
                        C474.5,26.916,447.584,0,414.5,0z M444.5,452c0,16.542-13.458,30-30,30h-317c-16.542,0-30-13.458-30-30V60
-                       c0-16.542,13.458-30,30-30h317c16.542,0,30,13.458,30,30V452z" />
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path
-                                d="M357.702,201.773c-16.828-14.256-38.669-22.107-61.5-22.107c-5.578,0-11.225,0.47-16.783,1.396L211,192.465V60h-90
+                       c0-16.542,13.458-30,30-30h317c16.542,0,30,13.458,30,30V452z"
+                />
+              </g>
+            </g>
+            <g>
+              <g>
+                <path
+                  d="M357.702,201.773c-16.828-14.256-38.669-22.107-61.5-22.107c-5.578,0-11.225,0.47-16.783,1.396L211,192.465V60h-90
                        v238.707l173.215-28.87c2.32-0.388,4.449-0.124,5.313,0.606c0.679,0.576,1.472,2.268,1.472,5.142V452h90V275.586
                        C391,246.603,378.863,219.699,357.702,201.773z M361,422h-30V275.586c0-11.477-4.29-21.433-12.081-28.032
                        c-6.104-5.17-13.912-7.903-22.582-7.903c-2.313,0-4.687,0.2-7.055,0.595L151,263.293V90h30v137.879l103.351-17.225
-                       c3.933-0.655,7.921-0.988,11.852-0.988c15.738,0,30.692,5.326,42.108,14.998C352.729,236.878,361,255.439,361,275.586V422z" />
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path d="M121,304v150l100-75L121,304z M151,364l20,15l-20,15V364z" />
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path d="M301,60v15c0,19.204-2.802,38.22-8.328,56.522l-5.839,19.336h94.278l2.665-11.657C388.569,118.234,391,96.633,391,75V60
+                       c3.933-0.655,7.921-0.988,11.852-0.988c15.738,0,30.692,5.326,42.108,14.998C352.729,236.878,361,255.439,361,275.586V422z"
+                />
+              </g>
+            </g>
+            <g>
+              <g>
+                <path
+                  d="M121,304v150l100-75L121,304z M151,364l20,15l-20,15V364z"
+                />
+              </g>
+            </g>
+            <g>
+              <g>
+                <path
+                  d="M301,60v15c0,19.204-2.802,38.22-8.328,56.522l-5.839,19.336h94.278l2.665-11.657C388.569,118.234,391,96.633,391,75V60
                        H301z M356.912,120.858h-30.606c2.107-10.167,3.509-20.473,4.198-30.858h30.062C359.966,100.364,358.745,110.678,356.912,120.858z
-                       " />
-                        </g>
-                    </g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                    <g></g>
-                </svg>
-            </symbol>
-        </defs>
+                       "
+                />
+              </g>
+            </g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+          </svg>
+        </symbol>
+      </defs>
     </svg>
     <div class="page_wrp">
-        <header>
-            <div class="header_wrp">
-                <div class="logo">
-                    <img src="./assets/images/89966e36-7a08-491b-a05b-50cd32af5a7e_200x200.png" class="logo_link" />
-                </div>
-                <p class="hello">Welcome</p>
-                <!-- <h1 class="name">Bohdan Dziubliuk</h1> -->
-                <ul class="list">
-                        
-                    <li class="list-item"><a class="link" href="./index.html">About</a></li>
-                    <li class="list-item">
-                        <a class="link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-        <div class="main">
-            <div class="main__groups">
-                <div class="main__groups--language">
-                <h2 class="main__groups--languages"> HTML/CSS</h2>
-                <p class="click">[..Click to see the tamplet..]</p>
-               
-                      <div class="slideshow-container">
-
-                            <!-- Full-width images with number and caption text -->
-                            <div class="mySlides fade">
-                              <div class="numbertext">1 / 6</div>
-                              <a href="https://dziubliukbm.github.io/goit-fe-course/module-04/index.html"><img src="./assets/images/hw4.jpg" style="width:100%"></a>
-                            </div>
-                          
-                            <div class="mySlides fade">
-                              <div class="numbertext">2 / 6</div>
-                              <a href="https://dziubliukbm.github.io/goit-fe-course/module-05/index.html"><img src="./assets/images/hw5.jpg" style="width:100%"></a>
-                            </div>
-                          
-                            <div class="mySlides fade">
-                              <div class="numbertext">3 / 6</div>
-                              <a href="https://dziubliukbm.github.io/goit-fe-course/module-06/index.html"><img src="./assets/images/hw6.jpg" style="width:100%"></a>
-                            </div>
-
-                            <div class="mySlides fade">
-                                <div class="numbertext">4 / 6</div>
-                                <a href="https://dziubliukbm.github.io/goit-fe-course/module-07/index.html"><img src="./assets/images/hw7.jpg" style="width:100%"></a>
-                              </div>
-
-                              <div class="mySlides fade">
-                                <a href="https://dziubliukbm.github.io/goit-fe-course/module-09/index.html"><div class="numbertext">5 / 6 (responsive)</div>
-                                <img src="./assets/images/hw8d.jpg" style="width:100%"></a>
-                              </div>
-
-                              <div class="mySlides fade">
-                                <div class="numbertext">6 / 6</div>
-                                <a href="https://dziubliukbm.github.io/goit-fe-course/module-10/index.html"><img src="./assets/images/hw10.jpg" style="width:100%"></a>
-                              </div>
-                          
-                            <!-- Next and previous buttons -->
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                          </div>
-                          <br>
-                          <div style="text-align:center">
-                                <span class="dot" onclick="currentSlide(1)"></span> 
-                                <span class="dot" onclick="currentSlide(2)"></span> 
-                                <span class="dot" onclick="currentSlide(3)"></span> 
-                                <span class="dot" onclick="currentSlide(4)"></span> 
-                                <span class="dot" onclick="currentSlide(5)"></span> 
-                                <span class="dot" onclick="currentSlide(6)"></span> 
-                                 
-                        </div>
-                        </div>
-                        <div class="main__groups--language">
-                            
-                            </div>
-            </div>
+      <header>
+        <div class="header_wrp">
+          <div class="logo">
+            <img
+              src="./assets/images/89966e36-7a08-491b-a05b-50cd32af5a7e_200x200.png"
+              class="logo_link"
+            />
+          </div>
+          <p class="hello"><span class="text">...</span>Welcome<span class="text">to portfolio page...</span></p>
+          
+          <!-- <h1 class="name">Bohdan Dziubliuk</h1> -->
+          <ul class="list">
+            <li class="list-item">
+              <a class="link" href="./index.html">About</a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+      </header>
+      <div class="main">
+        <div class="main__groups">
+          <div class="main__groups--language">
+            <h2 class="main__groups--languages">HTML / CSS</h2>
+            <img
+              src="./assets/images/html css.png"
+              alt="html/csss"
+              class="language_image"
+            />
+            <p class="click">[...Click to see the tamplet...]</p>
+
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <a
+                  href="https://dziubliukbm.github.io/goit-fe-course/module-04/index.html"
+                  ><img src="./assets/images/hw4.jpg" style="width:100%"
+                /></a>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <a
+                  href="https://dziubliukbm.github.io/goit-fe-course/module-05/index.html"
+                  ><img src="./assets/images/hw5.jpg" style="width:100%"
+                /></a>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <a
+                  href="https://dziubliukbm.github.io/goit-fe-course/module-06/index.html"
+                  ><img src="./assets/images/hw6.jpg" style="width:100%"
+                /></a>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <a
+                  href="https://dziubliukbm.github.io/goit-fe-course/module-07/index.html"
+                  ><img src="./assets/images/hw7.jpg" style="width:100%"
+                /></a>
+              </div>
+
+              <div class="mySlides fade">
+                <a
+                  href="https://dziubliukbm.github.io/goit-fe-course/module-09/index.html"
+                  ><div class="numbertext">5 / 6 (responsive)</div>
+                  <img src="./assets/images/hw8d.jpg" style="width:100%"
+                /></a>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <a
+                  href="https://dziubliukbm.github.io/goit-fe-course/module-10/index.html"
+                  ><img src="./assets/images/hw10.jpg" style="width:100%"
+                /></a>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br />
+            <div class="dots" style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+          </div>
+          <div class="main__groups--language">
+            <img
+              src="./assets/images/node.png"
+              alt="html/csss"
+              class="language_image--node"
+            />
+            <p class="click">[...Click title to try ...]</p>
+            <div class="card__wrapper">
+            <div class="card">
+              <img src="./assets/images/nodehw/bamazon.jpg" alt="bamazon app" class="node_pics">
+              <p class="app_name">Bamazon App</p>
+          </div>
+          <div class="card">
+            <img src="./assets/images/nodehw/liriBot.jpg" alt="Liri Bot app" class="node_pics">
+            <p class="app_name">Liri Bot App</p>
+          </div>
+          <div class="card">
+            <img src="./assets/images/nodehw/Mongo-scraper.jpg" alt="Mongo scraper app" class="node_pics">
+            <p class="app_name">Mongo Scraper App</p>
+        </div>
+        <div class="card">
+          <img src="./assets/images/nodehw/friendF.jpg" alt="Friend Finder app" class="node_pics">
+          <p class="app_name">Friend Finder App</p>
+      </div>
+      
+      <div class="card">
+        <img src="./assets/images/nodehw/trainscadule.jpg" alt="Train Scadule app" class="node_pics">
+        <p class="app_name">Train Scaduals App</p>
+      </div>
+      <div class="card">
+        <img src="./assets/images/nodehw/burger.jpg" alt="Burger app" class="node_pics">
+        <p class="app_name">Burger App</p>
     </div>
+        <div class="card">
+          <img src="./assets/images/nodehw/gigy-API.jpg" alt="gifyAPI" class="node_pics">
+          <p class="app_name">GIHPY API</p>
+      </div>
+      <div class="card">
+        <img src="./assets/images/nodehw/Jquery.jpg" alt="CrystalCollector" class="node_pics">
+        <p class="app_name">Crystal Collector</p>
+    </div>
+      <div class="card">
+        <img src="./assets/images/nodehw/triviaGame.jpg" alt="Trivia game app" class="node_pics">
+        <p class="app_name">Trivia Game App</p>
+    </div>
+  </div>
+    <div class="main__groups--language">
+      <h3 class="main__groups--languages">Bootcamp Projects</h3>
+      <p class="click">{..Follow the link..}</p>
+      <div class="card__wrapper">
 
-
+      <div class="card">
+        <img src="./assets/images/bootcampProjects/SharkNo.jpg" alt="Shark NO app" class="node_pics">
+        <p class="app_name">Shark No App</p>
+    </div>
+    <div class="card">
+      <img src="./assets/images/bootcampProjects/showStopers.jpg" alt="Show Stopers img" class="node_pics">
+      <p class="app_name">Show Stopers App</p>
+  </div>
+  <div class="card">
+    <img src="./assets/images/bootcampProjects/showStopers.jpg" alt="EarthTrack app img" class="node_pics">
+    <p class="app_name">EarthTrack App</p>
+</div>
+ </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
     <footer>
         <div class="footer">
             <div class="footer__section">
@@ -243,34 +369,40 @@
             </div>
         </div>
     </footer>
-    <script>var slideIndex = 1;
-            showSlides(slideIndex);
-            
-            // Next/previous controls
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            // Thumbnail image controls
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1} 
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none"; 
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block"; 
-              dots[slideIndex-1].className += " active";
-            }</script>
-</body>
+  
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
 </html>

@@ -1,36 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    background-color: black;
-    
-  }
-  .page_wrp {
-    margin: 0px 10px 0px 10px;
-  }
-  .logo {
-    margin: 0 auto;
-  }
-  .logo_link {
-    height: 75px;
-    width: 75px;
-  }
-  .hello {
-    margin-bottom: 15px;
-    font-weight: normal;
-    font-size: 2.5rem;
-    font-family: "Roboto Slab", serif;
-    color: rgb(13, 125, 208)
-  }
-  .name {
-    display: none;
-  }
-  .header_wrp {
-    text-align: center;
-    border-bottom: 2px white solid;
-    margin-bottom: 20px;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.page_wrp {
+  margin: 0px 10px 0px 10px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo_link {
+  height: 75px;
+  width: 75px;
+}
+
+.hello {
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 24px;
+  height: 30px;
+  font-family: "Roboto Slab", serif;
+  color: lightgray;
+}
+
+.header_wrp {
+  text-align: center;
+  border-bottom: 2px white solid;
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  color: azure;
+}
+
+.list {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.list-item {
+  margin-bottom: 15px;
+}
+
+
+.link {
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  color: lightgrey;
+}
+
  
   .main__groups--languages{
     color: red;
@@ -257,7 +291,6 @@ align-items: center;
     -webkit-transition: all 0.2s Linear;
     -o-transition: all 0.2s Linear;
     transition: all 0.2s Linear;
-    margin-left: 15px;
   }
  
   
@@ -271,20 +304,31 @@ align-items: center;
 
   
   @media (min-width: 768px) {
-   .hello {
-    font-size: 2.5rem; 
-    margin-bottom: 2rem;
-   }
-   .list-item{
-     font-size: 1.8rem;
-   } 
-   .logo_link{
-     width: 100px;
-     height: 100px;
-   }
+    .logo_link {
+      height: 100px;
+      width: 100px;
+    }
+  
+    .hello {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+  
+    .name {
+      font-size: 38px;
+      margin-bottom: 40px;
+    }
+    .list {
+      justify-content: space-around;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .list-item{
+        font-size: 32px;
+    }
    .main__groups--languages {
      font-size: 2.5rem;
-     
+     padding-top: 1rem;
    }
    .main__groups--language{
      margin-bottom: 8rem;
@@ -322,7 +366,8 @@ align-items: center;
  .card {
   width: 45%;
   /* box-shadow: 5px 10px 10px 2px red; */
-  border: 2px solid rgb(13, 125, 208);
+  /* rgb(13, 125, 208 */
+  border: 2px solid greenyellow;
  }
  
  .footer__section {
@@ -332,41 +377,48 @@ align-items: center;
   @media (min-width: 960px) {
     body {
       margin: 0 auto;
-      
       /* background: url(../images/bg6.jpg); */
       background-attachment:fixed;
       background-position: center; 
       background-size: cover;
       background-repeat: no-repeat;
     }
-    .main {
+    .header_wrp {
       margin: 0 auto;
-    }
-    .header_wrp{
-      width: 100%;
-      margin: 0 auto;
-      margin-bottom: 2rem;
+      width: 80%;
       display: flex;
       align-items: center;
-      justify-content: space-between;
     }
-    .logo{
-    width: 100px;
-    height: 100px;
-    margin: 0;
+  
+    .name {
+      width: 50%;
+      margin-bottom: 10px;
+      font-size: 1.7em;
     }
+  
     .hello {
       display: none;
     }
+  
+    .logo_link {
+      height: 70px;
+      width: 70px;
+    }
+  
     .list {
-    width: 40%;
-    margin: 0;
-    /* justify-content: space-around; */
+      font-size: 1.4em;
+      width: 60%;
+      display: flex;
+      padding-top: 5px;
+      height: 50px;
+      justify-content: flex-end;
     }
     .list-item{
-      margin: 0;
-      display: flex;
-      vertical-align: middle;
+        font-size: 1.2em;
+    }
+  
+    .link {
+      margin: 0px 30px 10px 0px;
     }
     a::after {
       margin-left: 0px;
@@ -375,7 +427,9 @@ align-items: center;
       width: 80%;
       margin: 0 auto;
     }
-    
+    .main__groups--languages{
+      padding-top: 1.5rem;
+    }
     .dots::after {
       width: 50%;
       margin: 0 auto;
@@ -387,6 +441,20 @@ align-items: center;
     }
     .link:hover.link {
       color: rgb(13, 125, 208);
+    }
+    footer{
+      margin: 0 auto;
+    }
+    .footer__section {
+      margin: 0 auto;
+      width: 80%;
+      position: fixed;
+      bottom: 0;
+      height: 9%;
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
     }
   }
     

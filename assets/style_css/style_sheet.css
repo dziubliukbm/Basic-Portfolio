@@ -13,7 +13,6 @@ body {
 
 .logo {
   margin: 0;
-  /* height: 60px; */
 }
 
 .logo_link {
@@ -179,7 +178,6 @@ footer {
   width: 100px;
   background-color: red;
   border: none;
-  /* margin: 0 auto; */
 }
 
 .link_btn:hover.link_btn {
@@ -195,7 +193,6 @@ a::after {
   -webkit-transition: all 0.2s Linear;
   -o-transition: all 0.2s Linear;
   transition: all 0.2s Linear;
-  margin-left: 15px;
 }
 
 ul .skill::before {
@@ -232,7 +229,9 @@ ul .skill::before {
     margin-bottom: 40px;
   }
   .list {
-    margin-bottom: 10px;;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   .list-item{
       font-size: 32px;
@@ -253,10 +252,7 @@ ul .skill::before {
   .skill {
 font-size: 32px;      
   }
-  .list {
-    justify-content: space-around;
-    font-size: 24px;
-  }
+  
 
   .info {
     font-size: 18px;
@@ -315,8 +311,7 @@ font-size: 32px;
   }
 
   .link {
-    margin: 0px 0px 10px 0px;
-    padding-left: 30px;
+    margin: 0px 30px 10px 0px;
   }
   .content_wrp {
     width: 90%;
@@ -394,7 +389,7 @@ font-size: 32px;
     width: 80%;
     position: fixed;
     bottom: 0;
-    height: 10%;
+    height: 9%;
     background-color: red;
     display: flex;
     justify-content: center;

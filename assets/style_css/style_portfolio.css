@@ -81,6 +81,10 @@ body {
     width: 12rem;
     margin-bottom: 1.5rem;  
   }
+  .app_link {
+    text-decoration: none;
+    color: #fff;
+  }
   .language_image{
   height: 4rem;
   width: 6rem;

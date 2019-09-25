@@ -381,9 +381,8 @@ align-items: center;
   @media (min-width: 960px) {
     body {
       margin: 0 auto;
-      /* background: url(../images/bg6.jpg); */
       background-attachment:fixed;
-      background-position: center; 
+      background-position: -200px 0; 
       background-size: cover;
       background-repeat: no-repeat;
     }

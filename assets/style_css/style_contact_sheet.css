@@ -302,9 +302,11 @@ background-color: red;
 @media (min-width: 960px) {
   body {
     margin: 0 auto;
+    background-position: -200px 0;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   .header_wrp {
     margin: 0 auto;

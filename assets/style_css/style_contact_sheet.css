@@ -49,7 +49,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
 }
 
@@ -63,6 +63,7 @@ body {
   text-decoration: none;
   font-family: "Roboto Slab", serif;
   color: lightgrey;
+  width: 33%;
 }
 
 .contact_text {
@@ -79,10 +80,15 @@ body {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
 }
-
+.sign{
+  color:black;
+}
+.active {
+  background-color: red;
+  }
 .list-item {
   margin-bottom: 15px;
 }
@@ -248,7 +254,9 @@ background-color: red;
     height: 100px;
     width: 100px;
   }
-
+.contact-submit{
+  margin-bottom: 140px;
+}
   .hello {
     font-size: 32px;
     margin-bottom: 40px;
@@ -263,8 +271,11 @@ background-color: red;
     font-size: 24px;
     margin-bottom: 10px;
   }
+  /* .link {
+    font-size: 20px;
+  } */
   .list-item{
-      font-size: 32px;
+      font-size: 36px;
   }
   .contact_text{
   padding-top: 10px;

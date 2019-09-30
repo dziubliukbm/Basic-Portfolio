@@ -48,10 +48,15 @@ body {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
 }
-
+.active {
+background-color: red;
+}
+.sign{
+color:black;
+}
 .list-item {
   margin-bottom: 15px;
 }
@@ -62,6 +67,7 @@ body {
   text-decoration: none;
   font-family: "Roboto Slab", serif;
   color: lightgrey;
+  width: 33%;
 }
 
 .container {
@@ -199,8 +205,6 @@ ul .skill::before {
   content: "\2022";
   color: red;
   font-weight: bold;
-  /* display: inline-block;  */
-  display: inline-flex;
   width: 1em;
   margin-left: 0.5em;
 }
@@ -234,8 +238,11 @@ ul .skill::before {
     margin-bottom: 10px;
   }
   .list-item{
-      font-size: 32px;
+      font-size: 36px;
   }
+  /* .link {
+    font-size: 20px;
+  } */
   .article_text {
     padding-top: 50px;
     font-size: 42px;

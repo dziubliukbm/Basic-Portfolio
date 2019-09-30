@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
 }
 
@@ -63,8 +63,11 @@ body {
   text-decoration: none;
   font-family: "Roboto Slab", serif;
   color: lightgrey;
+  width: 33%;
 }
-
+.active {
+  background-color: red;
+}
  
   .main__groups--languages{
     color: red;
@@ -166,9 +169,7 @@ border-radius: 3px 0 0 3px;
   transition: red 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: red;
-}
+
 
 /* Fading animation */
 .fade {
@@ -229,13 +230,18 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    font-size: 20px;
+    font-size:18px;
     margin: 0 auto;
   }
   .list-item {
     margin-bottom: 15px;
   }
-  
+  .sign{
+  color:black;
+  }
+  .active {
+    background-color: red;
+    }
   .link {
     text-align: center;
     align-items: center;
@@ -312,7 +318,7 @@ align-items: center;
       height: 100px;
       width: 100px;
     }
-  
+    
     .hello {
       font-size: 32px;
       margin-bottom: 40px;
@@ -327,8 +333,11 @@ align-items: center;
       font-size: 24px;
       margin-bottom: 10px;
     }
+    /* .link {
+      font-size: 20px;
+    } */
     .list-item{
-        font-size: 32px;
+        font-size: 36px;
     }
    .main__groups--languages {
      font-size: 2.5rem;
@@ -460,9 +469,6 @@ align-items: center;
       justify-content: center;
       margin-left: 10%;
     }
-    .active {
-      background-color: transparent;
-      color: white;
-    }
+    
   }
     

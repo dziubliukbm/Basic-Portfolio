@@ -87,7 +87,7 @@ body {
   color:black;
 }
 .active {
-  background-color: red;
+  border-bottom: 1px solid rgb(13, 125, 208);
   }
 .list-item {
   margin-bottom: 15px;
@@ -201,7 +201,7 @@ footer {
   position: fixed;
   bottom: 0;
   height: 10%;
-  background-color: red;
+  background-color: rgb(13, 125, 208);
   display: flex;
   justify-content: center;
   -webkit-box-sizing: border-box;
@@ -218,9 +218,8 @@ footer {
 .link_btn {
   padding-top: 10px;
   width: 100px;
-  background-color: red;
+  background-color: rgb(13, 125, 208);
   border: none;
-  /* margin: 0 auto; */
 }
 
 .link_btn:hover.link_btn {
@@ -313,7 +312,7 @@ background-color: red;
 @media (min-width: 960px) {
   body {
     margin: 0 auto;
-    background-position: -200px 0;
+    background-position: -320px 70px;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -393,7 +392,7 @@ background-color: red;
     position: fixed;
     bottom: 0;
     height: 9%;
-    background-color: red;
+    background-color: rgb(13, 125, 208);
     display: flex;
     justify-content: center;
     margin-left: 10%;

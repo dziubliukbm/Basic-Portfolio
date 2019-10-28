@@ -52,7 +52,7 @@ body {
   margin: 0 auto;
 }
 .active {
-background-color: red;
+border-bottom: 1px solid rgb(13, 125, 208);
 }
 .sign{
 color:black;
@@ -138,8 +138,7 @@ color:black;
   height: 4px;
   display: block;
   margin: 40px auto;
-  background-color: red;
-  border-radius: 10px;
+  background-color: rgb(13, 125, 208);
 }
 
 .info {
@@ -165,7 +164,7 @@ footer {
   position: fixed;
   bottom: 0;
   height: 10%;
-  background-color: red;
+  background-color: rgb(13, 125, 208);
   display: flex;
   justify-content: center;
   -webkit-box-sizing: border-box;
@@ -182,8 +181,6 @@ footer {
 .link_btn {
   padding-top: 10px;
   width: 100px;
-  background-color: red;
-  border: none;
 }
 
 .link_btn:hover.link_btn {
@@ -203,7 +200,7 @@ a::after {
 
 ul .skill::before {
   content: "\2022";
-  color: red;
+  color: rgb(13, 125, 208);
   font-weight: bold;
   width: 1em;
   margin-left: 0.5em;
@@ -278,7 +275,7 @@ font-size: 32px;
 @media (min-width: 960px) {
   body {
     margin: 0 auto;
-    background-position: -200px 0;
+    background-position: -320px 70px;
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -398,7 +395,8 @@ font-size: 32px;
     position: fixed;
     bottom: 0;
     height: 9%;
-    background-color: red;
+    background-color: rgb(13, 125, 208);
+
     display: flex;
     justify-content: center;
 
@@ -412,7 +410,7 @@ font-size: 32px;
   .link_btn {
     padding-top: 10px;
     width: 100px;
-    background-color: red;
+    background-color: rgb(13, 125, 208);
     border: none;
     /* margin: 0 auto; */
   }
